@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+input[type="text"] {
+  margin-right: 0.5rem;
+  padding: 0.5rem;
+  min-width: 25rem;
+  font-size: 1rem;
+}
+
+input[type="number"] {
+  margin-right: 0.5rem;
+  padding: 0.5rem;
+  width: 4rem;
+  font-size: 1rem;
+}
+
+input[type="date"] {
+  margin-right: 0.5rem;
+  padding: 0.5rem;
+  width: 10rem !important;
+  font-size: 1rem;
+}
+
+th {
+  min-width: 10rem;
+  text-align: left;
+  background-color: aqua;
+}
+td {
+  border: 1px solid #dddddd;
+}
+
+table {
+  padding-top: 1rem;
+  background-color: white;
+  color: black;
+  border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.btn{
+  padding: 0.6rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  margin-right: 1rem;
+}
+.btn:hover{
+  background-color: #c5c4c4;
+}
+
+.special > input[type="text"] {
+  margin-right: 0.5rem;
+  padding: 0.5rem;
+  min-width: 8rem;
+  font-size: 1rem;
+}
